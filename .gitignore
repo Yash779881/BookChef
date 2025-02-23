@@ -1,0 +1,24 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore target build directory
+/target
+
+# Ignore JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore IDE-related files (Eclipse, IntelliJ, VS Code)
+.idea/
+.classpath
+.project
+.settings/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+logs/
+*.log
