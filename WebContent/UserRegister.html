@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Register</title>
+</head>
+<body>
+    <form name="chefForm" action="UserRegister" method="post" onsubmit="return validateForm()">
+        <h1>Register Here</h1>
+        <input type="text" name="uname" placeholder="Enter Your Name" required>
+        <input type="text" name="ucity" placeholder="Enter Your City">
+        <input type="text" name="ucontact" placeholder="Enter Your Contact Number" required>
+        <input type="text" name="uaddress" placeholder="Enter Your Address">
+        <input type="text" name="upincode" placeholder="Enter Your Pincode">
+        <input type="email" name="uemail" placeholder="Enter Your Email" required>
+        <input type="password" name="upass" placeholder="Enter Password" required>
+        <input type="submit" value="Register">
+        <br>
+        <br>
+        <a href="user.html">Old User? Click Here to Login</a>
+    </form>
+</body>
+</html>

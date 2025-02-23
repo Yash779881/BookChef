@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role Selection | Book Chef</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+        .background-image {
+            background: url('r3sys project images/142763.jpg') no-repeat center center/cover;
+            flex: 2;
+            height: 100%;
+        }
+        .sidebar {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .sidebar h1 {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .role-selection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            width: 100%;
+        }
+        .role-selection form {
+            width: 100%;
+        }
+        .role-selection input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .role-selection input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="sidebar">
+        <h1>Select Your Role</h1>
+        <div class="role-selection">
+            <form action="admin.html">
+                <input type="submit" value="Admin">
+            </form>
+            <form action="chef.html">
+                <input type="submit" value="Chef">
+            </form>
+            <form action="user.html">
+                <input type="submit" value="User">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
